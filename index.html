@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sawtooth Wave Quiz</title>
+    <style>
+        #centerFrequency {
+            font-size: 48px;
+            font-weight: bold;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sawtooth Wave Quiz</h1>
+    <button id="startQuiz">Start</button>
+    <p id="questionText" style="display:none;">Identify the fundamental frequency for this audio sample:</p>
+    <button id="playAudio" style="display:none;">Play Audio</button>
+    <button id="nextQuestion" style="display:none;">Next Question</button>
+    <div id="feedback" style="display:none; width:100%; height:100%; position:fixed; top:0; left:0;"></div>
+    <div id="centerFrequency"></div>
+    <script src="quiz.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
